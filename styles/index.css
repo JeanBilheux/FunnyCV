@@ -3,7 +3,6 @@ body {
 	width: 800px;
 	background: #deeff9 url("../images/clouds_background.png") top left repeat-x;
 }
-
 div#picture {
 	width: 200px;
 	height: 200px;
@@ -11,13 +10,10 @@ div#picture {
 	margin: 20px 30px;
 	float: left;
 }
-
 div#top_right_text {
 	width: 650px;
 	float: right;
 }
-
-
 /* layer just on top of background */
 div#main_container {
 	position: absolute;
@@ -26,22 +22,19 @@ div#main_container {
 	height: 1000px;
 	text-align: center;
 }
-
 #back_layer #top {
 	background: url("../images/layer_background.png") top left;
 	height: 200px;
 	width: 800px;
 	opacity: 0.4;
 }
-
 #back_layer #space_band {
-	background: blue;
+	background: #5058f7;
 	position: relative;
 	height: 90px;
 	left: 10px;
-	width:790px;
+	width: 790px;
 }
-
 #back_layer #center {
 	background: url("../images/back_middle.png") top left repeat-y;
 	height: 500px;
@@ -54,7 +47,44 @@ div#main_container {
 	width: 800px;
 	opacity: 0.4;
 }
-
+#menu a {
+	top: -150px;
+	left: 30px;
+	position: relative;
+	display: block;
+	width: 180px;
+	height: 65px;
+	/*	margin-right: 3px;*/
+	float: left;
+	background-image: url("../images/menu_buttons.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	text-indent: -9999px;
+}
+#diplomas {
+	background-position: -20px 0px;
+}
+#diplomas:hover, #diplomas.hover {
+	background-position: -20px -80px;
+}
+#skills {
+	background-position: -200px 0;
+}
+#skills:hover, #skills.hover {
+	background-position: -200px -80px;
+}
+#hobbies {
+	background-position: -400px 0;
+}
+#hobbies:hover, #hobbies.hover {
+	background-position: -400px -80px;
+}
+#divers {
+	background-position: -600px 0;
+}
+#divers:hover, #divers.hover {
+	background-position: -600px -80px;
+}
 /*top layer */
 div#top_layer {
 	position: relative;
@@ -63,32 +93,25 @@ div#top_layer {
 	width: 770px;
 	left: 20px;
 }
-
 div#text_header {
 	position: relative;
 	background: white;
 	height: 195px;
 }
-
 #top_layer #picture {
 	width: 160px;
 	height: 160px;
 	float: left;
 	margin: 15px;
 }
-
 #top_layer #text_picture {
 	width: 600px;
 	height: 150px;
 	float: right;
 }
-
-
-
 div#menu {
 	height: 70px;
 }
-
 div#bottom_text {
 	height: 500px;
 	background: white;
