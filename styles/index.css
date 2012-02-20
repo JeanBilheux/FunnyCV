@@ -48,13 +48,13 @@ div#main_container {
 	opacity: 0.4;
 }
 #menu a {
-	top: -150px;
-	left: 30px;
+	top: -135px;
+	left: 20px;
 	position: relative;
 	display: block;
 	width: 180px;
-	height: 65px;
-	/*	margin-right: 3px;*/
+	height: 50px;
+	margin-right: 5px;
 	float: left;
 	background-image: url("../images/menu_buttons.png");
 	background-repeat: no-repeat;
@@ -65,25 +65,25 @@ div#main_container {
 	background-position: -20px 0px;
 }
 #diplomas:hover, #diplomas.hover {
-	background-position: -20px -80px;
+	background-position: -20px -45px;
 }
 #skills {
 	background-position: -200px 0;
 }
 #skills:hover, #skills.hover {
-	background-position: -200px -80px;
+	background-position: -200px -45px;
 }
 #hobbies {
 	background-position: -400px 0;
 }
 #hobbies:hover, #hobbies.hover {
-	background-position: -400px -80px;
+	background-position: -400px -45px;
 }
 #divers {
 	background-position: -600px 0;
 }
 #divers:hover, #divers.hover {
-	background-position: -600px -80px;
+	background-position: -600px -45px;
 }
 /*top layer */
 div#top_layer {
@@ -97,6 +97,7 @@ div#text_header {
 	position: relative;
 	background: white;
 	height: 195px;
+	border:groove #000 1px;
 }
 #top_layer #picture {
 	width: 160px;
@@ -113,6 +114,7 @@ div#menu {
 	height: 70px;
 }
 div#bottom_text {
-	height: 500px;
+	height: 450px;
 	background: white;
+	border:groove #000 1px;
 }
